@@ -66,6 +66,8 @@ This will create a new component in `src/components`. In it are:
 gulp
 ```
 
+It will now watch for changes for all the components. However, [gulp will have issues watching newly created files](https://github.com/gulpjs/gulp/issues/651)
+
 *Hooray*, we're watching for all changes now and 1) inline styling 2) applying global styling 3) wrapping it Hubspot base 4) spitting out all the html in `dist.html` and `test.html`
 
 #### Hubspot Variables

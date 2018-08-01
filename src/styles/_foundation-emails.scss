@@ -1164,8 +1164,12 @@ table.button a table td {
 }
 
 table.button.radius table td {
-    border-radius: 3px;
+    border-radius: 4px;
     border: none;
+}
+
+table.button.radius {
+    border-radius: 4px;
 }
 
 table.button:hover table tr td a,

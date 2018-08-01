@@ -22,3 +22,7 @@ table.button table a {
 	mso-border-color-alt: << widget.button_color >>;
 	mso-border-width-alt: 0;
 }
+
+.radius {
+	border-radius: 4px;
+}
